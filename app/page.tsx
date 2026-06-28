@@ -387,7 +387,7 @@ export default function BlogPage() {
         {/* ── Section 7 ── */}
         <section>
           <SectionLabel number="7" label="Design Considerations" />
-          <h2 className="text-2xl font-bold mb-6 text-gray-900">For ILP documentation and your resume</h2>
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">For ILP documentation</h2>
 
           <Subsection title="7.1 Architecture">
             <p className="text-lg text-gray-700 leading-8 mb-4">
@@ -408,14 +408,14 @@ export default function BlogPage() {
             </div>
           </Subsection>
 
-          <Subsection title="7.2 Why this is resume-worthy">
+          {/* <Subsection title="7.2 Why this is resume-worthy">
             <p className="text-lg text-gray-700 leading-8 mb-4">
               You can honestly say in your resume and portfolio:
             </p>
             <blockquote className="border-l-4 border-gray-300 pl-6 py-2 text-gray-700 text-lg leading-8 italic">
               Led a 6-member team to build a Course Enrollment and Fee Tracking System for a training institute. Implemented role-based flows for Admin and Staff, end-to-end enrollment and payments with pending fee calculations, and dashboards summarizing institute performance. Used Java (OOP, collections, JDBC), MySQL, and web technologies to build a real-world-style system.
             </blockquote>
-          </Subsection>
+          </Subsection> */}
         </section>
 
         {/* Footer divider */}
